@@ -67,6 +67,9 @@ function TicTacToeCellContainer() {
             <div className="grid grid-cols-3 gap-[6px] p-4 text-3xl font-semibold text-green-500 rounded-lg ">
                 {TicTacToeCells}
             </div> 
+            <div>
+                <h3 className="text-xl font-bold text-white">{playerChance} Turn</h3>
+            </div>
             <Button 
                 text="Reset" 
                 additionStyle="bg-red-400 mt-6" 
